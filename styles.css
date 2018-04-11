@@ -29,10 +29,10 @@
 }
 
 .main{
-    background-color: cornflowerblue;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 600px;
     /* border: 1px solid pink; */
     justify-content: space-around;
     /* align-items: center; */
@@ -45,9 +45,18 @@ h1{
     align-content: center;
     align-self: center;
     /* border: 1px solid purple; */
+    /* align-items: center; */
     margin: 0px;
-
+    color: #565656;
 }
+
+.header_main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid pink; */
+}
+
 .steps{
     font-size: 50px;
     display: flex;
@@ -64,6 +73,7 @@ h1{
     /* justify-content: space-around; */
     align-items: center;
     width:150px;
+    color: #565656;
 
     /* border: 1px solid lightgreen; */
 
@@ -71,7 +81,7 @@ h1{
 
 .steps_header{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 800;
 
     /* border: 1px solid salmon; */
  
@@ -80,10 +90,12 @@ h1{
 .steps_disc{
    font-size: 20px;
    text-align: center;
+   font-weight: 600;
 
    /* border: 1px solid salmon; */
 
 }
+
 
 .start_now{
     font-size: 30px;
@@ -91,14 +103,16 @@ h1{
     width: 250px;
     align-self: center;
     color: aliceblue;
-    background-color: darkcyan;
+    background-color: #ee4c7c;
     border: none;
     height: 70px;
+    border-radius:10px;
 
 }
 
 .body_container{
     display:flex;
+    color: #434343;
 }
 
 .banner{
@@ -158,13 +172,19 @@ h1{
 }
 
 .how_steps_header {
-    font-size: 22px;
+    font-size: 24px;
     padding: 15px;
+    font-weight: 700;
 
 }
 
+.step_header_bold{
+    color: #ee4c7c;
+}
+
 .how_steps_disc {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .template {
